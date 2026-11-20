@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    "M075416"
+  ],
+  "started_utc": "2026-11-20T22:37:24.899303+00:00",
+  "ended_utc": "2026-11-20T22:37:30.885732+00:00",
+  "elapsed_seconds": 6.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7253816
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorDvdOfSaturatedIdeal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ae3f7d0d6e957dfa89b5654936c78f607d5e513d03bb30104b29c2d1d45588aa",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M075416": "88531081ccaedfc303056e68498ac58cb109533879426ec81b86f6ff1166b4cd"
+  },
+  "bundle_sha256": "bb119ff58dd2fccf722ed9173b2b3aac640ab4cd9aadb3198e7129e949f8e90c"
+}
